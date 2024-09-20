@@ -119,3 +119,60 @@ img{
  height: 150px;
  width: 150px;
 }
+@media only screen and (max-width:900px){
+
+  .search{
+    height: 3rem;
+    width: 10rem;
+    padding: 8px;
+    border-radius: 10px;
+    background: #333;
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: wheat;
+    transition: 500ms;
+    
+}
+.search:hover {
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
+      inset -5px -5px 10px #444;
+    color: wheat;
+    transition: 500ms;
+  }
+::placeholder {
+    color: wheat;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: wheat;
+  }
+
+      button {
+        margin: 12px;
+        height: 50px;
+        width: 80px;
+        border-radius: 10px;
+        background: #333;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+          inset -5px -5px 10px #222;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+        color: wheat;
+        transition: 500ms;
+      }
+      
+      button:hover {
+        box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
+          inset -5px -5px 10px #444;
+          color: wheat;
+        transition: 500ms;
+      }
+
+}
