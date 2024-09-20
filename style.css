@@ -8,8 +8,6 @@
 .container{
     height:100vh ;
     width: 100%;
-    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%); */
-    /* background: #212121; */
     background: #E8E8E8;
     border-radius: 5px;
     padding: 40px;
@@ -25,8 +23,6 @@ nav{
     justify-content: center;
     align-items: center;    
     background: #212121;
-    /* background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%); */
-
     border-radius: 5px;
 }
 .search{
@@ -34,26 +30,19 @@ nav{
     width: 30rem;
     padding: 8px;
     border-radius: 10px;
-
-    /* color: white;
-    font-size: large; */
-   
     background: #333;
     box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
     inset -5px -5px 10px #222;
     cursor: pointer;
     border: none;
     font-size: 16px;
-    /* color: rgb(161, 161, 161); */
     color: wheat;
     transition: 500ms;
-    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
     
 }
 .search:hover {
     box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
       inset -5px -5px 10px #444;
-    /* color: #d6d6d6; */
     color: wheat;
     transition: 500ms;
   }
@@ -65,32 +54,7 @@ nav{
   ::-ms-input-placeholder { /* Edge 12-18 */
     color: wheat;
   }
-/* .btn{
-    height: 3rem;
-    width: 6rem;
-}        */
-    /* .btn {
-        
-        background-image: linear-gradient(to right, #085078 0%, #85D8CE  51%, #085078  100%);
-        margin: 10px;
-        padding: 15px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;            
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        font-size: 13px;
-        
-      }
 
-      .btn:hover {
-        background-position: right center; /* change the direction of the change here */
-        /* color: #fff;
-        text-decoration: none; */
-      /* } */ 
-     
       button {
         margin: 12px;
         height: 50px;
@@ -101,12 +65,10 @@ nav{
         align-items: center;
         box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
           inset -5px -5px 10px #222;
-        /* font-family: "Damion", cursive; */
         cursor: pointer;
         border: none;
         font-size: 16px;
         color: wheat;
-        /* color: rgb(161, 161, 161); */
         transition: 500ms;
       }
       
@@ -114,7 +76,6 @@ nav{
         box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
           inset -5px -5px 10px #444;
           color: wheat;
-        /* color: #d6d6d6; */
         transition: 500ms;
       }
 
@@ -130,23 +91,12 @@ nav{
     inset -5px -5px 10px #222;
     transition: 500ms;
     background: #333;
-
-
-    /* background-color: #212121;
-    border: #212121 0.2rem solid;
-    transition: all 0.4s ease-in;
-    box-shadow: 0.4rem 0.4rem 0.6rem #00000040; */
     border-radius: 1rem;
 }
 .card:hover {
-    /* transform: translateY(-1.5rem); */
-    /* border: #f2295bf0 0.2em solid; */
-    /* border-radius: 2.5rem 0 2.5rem 0; */
-
     box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
     inset -5px -5px 10px #444;
     color: wheat;
-  /* color: #d6d6d6; */
   transition: 500ms;
    }    
 h3{
