@@ -20,7 +20,7 @@ function search(e){
 }
 async function fetchdata(location){
 
-    let url =`http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${location}`;
+    let url =`https://api.weatherapi.com/v1/current.json?key=${apikey}&q=${location}`;
     try{
     const res = await fetch(url);
     const data = await res.json();
