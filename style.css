@@ -8,6 +8,7 @@
 /* Roboto Flex Font Styling */
 body {
   font-family: "Roboto Flex", sans-serif;
+  background: url("dark\ forest.jpg") no-repeat center center/cover;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
@@ -17,19 +18,6 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   color: white;
-}
-
-/* Video Background */
-#bgVideo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
-  pointer-events: none;
-  filter: brightness(1.15);
 }
 
 .video-overlay {
